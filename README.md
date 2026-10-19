@@ -450,16 +450,14 @@ These are recommendations. No containment or tenant changes were performed as pa
 - Count tool activity across interaction categories; a ToolCall-only filter missed five searches.
 - Base64 is encoding, not encryption. Decode preserved strings locally without fetching suspicious URLs.
 - Distinguish generated exfiltration references from successful delivery and confirmed data loss.
+- 
+## Evidence Files
 
-## Evidence Inventory
-
-The following SHA256 hashes identify the exact CSV bytes reviewed. Retain the original CSV files with this report. Delivery and initial prompt details are supported by screenshots; retain their original audit exports as well.
-
-- **New query-17.csv** — SHA256 `4b3f29d06dc3a6c7125ddb191c1505d67b27e1c3efa640aca40211717bf9adaf`
-- **New query-18.csv** — SHA256 `175c3876b3126c6e06f163764494a4be2eb4b2c73cef51b47d3059cf677fe0c4`
-- **New query-19.csv** — SHA256 `0f5683e7b6965794e044c5c4b98f987cee4df2713088a02b93148587c4d1a129`
-- **New query-20.csv** — SHA256 `3625120b1aa60caaddbeebadc5017cbc4027e6b20f52c7f07ba164517cd1242d`
-- **New query-21.csv** — SHA256 `de03a99b19b095a4129f98012b9e4f4e09e71b8f429830d577580c3c6b659c51`
+- [Copilot tool calls](evidence/New%20query-17.csv)
+- [Sensitive file accesses](evidence/New%20query-18.csv)
+- [Copilot responses](evidence/New%20query-19.csv)
+- [Normal session comparison](evidence/New%20query-20.csv)
+- [Additional searches](evidence/New%20query-21.csv)
 
 ## Screenshot Evidence
 
